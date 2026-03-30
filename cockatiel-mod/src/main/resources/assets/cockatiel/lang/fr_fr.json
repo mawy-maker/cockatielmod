@@ -1,0 +1,39 @@
+{
+  "entity.cockatiel.cockatiel": "Calopsitte",
+
+  "item.cockatiel.millet_seeds": "Graines de Millet",
+  "item.cockatiel.millet_bunch": "Grappe de Millet",
+  "item.cockatiel.cockatiel_feather": "Plume de Calopsitte Grise",
+  "item.cockatiel.yellow_cockatiel_feather": "Plume de Calopsitte Jaune",
+  "item.cockatiel.white_cockatiel_feather": "Plume de Calopsitte Blanche",
+  "item.cockatiel.cockatiel_potion": "Élixir de Calopsitte",
+  "item.cockatiel.cockatiel_whistle": "Sifflet à Calopsitte",
+  "item.cockatiel.millet_spray": "Épis de Millet",
+  "item.cockatiel.cockatiel_treat": "Friandise pour Calopsitte",
+  "item.cockatiel.cockatiel_spawn_egg": "Œuf d'apparition de Calopsitte",
+
+  "block.cockatiel.perch": "Perchoir",
+  "block.cockatiel.cockatiel_cage": "Cage à Calopsitte",
+
+  "itemGroup.cockatiel.tab": "Mod Calopsitte",
+
+  "tooltip.cockatiel.millet_bunch": "§7Une belle grappe de millet. Les calopsittes adorent ça !",
+  "tooltip.cockatiel.cockatiel_potion": "§7Accorde Saut amélioré, Vitesse, Chute lente & Régénération.\n§eLe cadeau d'un oiseau bien nourri.",
+
+  "message.cockatiel.creeper_alert": "§c⚠ Votre calopsitte vous avertit — un Creeper est proche !",
+  "message.cockatiel.stole_crops": "§eVotre calopsitte affamée a volé des cultures ! Nourrissez-la avec du millet !",
+  "message.cockatiel.whistle_no_cockatiel": "§7Aucune calopsitte à portée...",
+  "message.cockatiel.whistle_called": "§a%s calopsitte(s) rappelée(s) à vos côtés !",
+  "message.cockatiel.cage_stored": "§aLa calopsitte se repose dans la cage.",
+  "message.cockatiel.cage_released": "§aLa calopsitte est libre !",
+  "message.cockatiel.potion_effect": "§dVous vous sentez léger comme une plume !",
+
+  "subtitles.cockatiel.ambient": "La calopsitte gazouille",
+  "subtitles.cockatiel.hurt": "La calopsitte couine",
+  "subtitles.cockatiel.death": "La calopsitte se tait",
+  "subtitles.cockatiel.song": "La calopsitte chante",
+  "subtitles.cockatiel.alert": "La calopsitte crie",
+  "subtitles.cockatiel.eat": "La calopsitte mange",
+  "subtitles.cockatiel.happy": "La calopsitte trille",
+  "subtitles.cockatiel.whistle": "Coup de sifflet"
+}

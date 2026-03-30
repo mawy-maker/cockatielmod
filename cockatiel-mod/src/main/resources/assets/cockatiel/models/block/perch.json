@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "pole": "cockatiel:block/perch_pole",
+    "bar": "cockatiel:block/perch_bar",
+    "particle": "cockatiel:block/perch_pole"
+  },
+  "elements": [
+    {
+      "comment": "Vertical pole",
+      "from": [7, 0, 7],
+      "to": [9, 14, 9],
+      "faces": {
+        "north": { "texture": "#pole", "uv": [0, 0, 2, 14] },
+        "south": { "texture": "#pole", "uv": [0, 0, 2, 14] },
+        "east":  { "texture": "#pole", "uv": [0, 0, 2, 14] },
+        "west":  { "texture": "#pole", "uv": [0, 0, 2, 14] },
+        "up":    { "texture": "#pole", "uv": [0, 0, 2, 2] },
+        "down":  { "texture": "#pole", "uv": [0, 0, 2, 2] }
+      }
+    },
+    {
+      "comment": "Horizontal bar (north-south)",
+      "from": [7, 12, 2],
+      "to": [9, 14, 14],
+      "faces": {
+        "north": { "texture": "#bar", "uv": [0, 0, 2, 2] },
+        "south": { "texture": "#bar", "uv": [0, 0, 2, 2] },
+        "east":  { "texture": "#bar", "uv": [0, 0, 12, 2] },
+        "west":  { "texture": "#bar", "uv": [0, 0, 12, 2] },
+        "up":    { "texture": "#bar", "uv": [0, 0, 2, 12] },
+        "down":  { "texture": "#bar", "uv": [0, 0, 2, 12] }
+      }
+    }
+  ]
+}
