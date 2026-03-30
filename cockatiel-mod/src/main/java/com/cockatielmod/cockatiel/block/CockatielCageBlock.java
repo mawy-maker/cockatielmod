@@ -19,6 +19,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
+import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -26,7 +27,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class CockatielCageBlock extends BaseEntityBlock {
     public static final MapCodec<CockatielCageBlock> CODEC = simpleCodec(CockatielCageBlock::new);
-    public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
+    public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
     public static final BooleanProperty OCCUPIED = BooleanProperty.create("occupied");
     public static final BooleanProperty OPEN = BooleanProperty.create("open");
 
@@ -53,7 +54,6 @@ public class CockatielCageBlock extends BaseEntityBlock {
         return defaultBlockState().setValue(FACING, ctx.getHorizontalDirection().getOpposite());
     }
 
-    // 1.21.1 uses useWithoutItem instead of use
     @Override
     protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos,
                                                Player player, BlockHitResult hit) {
@@ -89,9 +89,14 @@ public class CockatielCageBlock extends BaseEntityBlock {
     }
 
     @Override
-    public BlockState rotate(BlockState state, Rotation r) { return state.setValue(FACING, r.rotate(state.getValue(FACING))); }
+    public BlockState rotate(BlockState state, Rotation r) {
+        return state.setValue(FACING, r.rotate(state.getValue(FACING)));
+    }
+
     @Override
-    public BlockState mirror(BlockState state, Mirror m) { return state.rotate(m.getRotation(state.getValue(FACING))); }
+    public BlockState mirror(BlockState state, Mirror m) {
+        return state.rotate(m.getRotation(state.getValue(FACING)));
+    }
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
@@ -108,6 +113,7 @@ public class CockatielCageBlock extends BaseEntityBlock {
     @Nullable @Override
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState state,
                                                                    BlockEntityType<T> type) {
-        return createTickerHelper(type, ModBlockEntities.COCKATIEL_CAGE.get(), CockatielCageBlockEntity::tick);
+        return createTickerHelper(type, ModBlockEntities.COCKATIEL_CAGE.get(),
+                CockatielCageBlockEntity::tick);
     }
 }
