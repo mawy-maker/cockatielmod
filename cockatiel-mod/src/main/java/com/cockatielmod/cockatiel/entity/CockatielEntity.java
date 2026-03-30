@@ -86,7 +86,7 @@ public class CockatielEntity extends Animal implements FlyingAnimal {
     }
 
     public static AttributeSupplier.Builder createAttributes() {
-        return Animal.createAnimalAttributes()
+        return Mob.createMobAttributes()
                 .add(Attributes.MAX_HEALTH, 10.0)
                 .add(Attributes.FLYING_SPEED, 0.6)
                 .add(Attributes.MOVEMENT_SPEED, 0.3)
@@ -318,9 +318,5 @@ public class CockatielEntity extends Animal implements FlyingAnimal {
     public void teleportToOwner(Player owner) { teleportTo(owner.getX(), owner.getY(), owner.getZ()); }
 
     @Override public boolean isFlying() { return !this.onGround(); }
-
-    @Override
-    protected float getStandingEyeHeight(Pose pose, EntityDimensions dimensions) {
-        return dimensions.height() * 0.85f;
     }
 }
