@@ -318,5 +318,5 @@ public class CockatielEntity extends Animal implements FlyingAnimal {
     public void teleportToOwner(Player owner) { teleportTo(owner.getX(), owner.getY(), owner.getZ()); }
 
     @Override public boolean isFlying() { return !this.onGround(); }
-    }
+
 }
