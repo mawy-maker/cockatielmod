@@ -1,0 +1,40 @@
+{
+  "entity.cockatiel.cockatiel": "Cockatiel",
+
+  "item.cockatiel.millet_seeds":            "Millet Seeds",
+  "item.cockatiel.millet_bunch":            "Millet Bunch",
+  "item.cockatiel.cockatiel_treat":         "Cockatiel Treat",
+  "item.cockatiel.cockatiel_feather":       "Grey Cockatiel Feather",
+  "item.cockatiel.yellow_cockatiel_feather":"Yellow Cockatiel Feather",
+  "item.cockatiel.white_cockatiel_feather": "White Cockatiel Feather",
+  "item.cockatiel.cockatiel_potion":        "Cockatiel Elixir",
+  "item.cockatiel.cockatiel_whistle":       "Cockatiel Whistle",
+  "item.cockatiel.cockatiel_spawn_egg":     "Cockatiel Spawn Egg",
+
+  "block.cockatiel.perch":         "Cockatiel Perch",
+  "block.cockatiel.cockatiel_cage":"Cockatiel Cage",
+  "block.cockatiel.millet_crop":   "Millet",
+
+  "itemGroup.cockatiel.tab": "Cockatiel Mod",
+
+  "tooltip.cockatiel.millet_seeds":    "§7Right-click farmland to plant. Cockatiels love it!",
+  "tooltip.cockatiel.millet_bunch":    "§7A large bunch of millet — great for taming!",
+  "tooltip.cockatiel.cockatiel_potion":"§7Grants Jump Boost II, Speed, Slow Falling & Regeneration.",
+
+  "message.cockatiel.creeper_alert":  "§c⚠ Your cockatiel is warning you — a Creeper is nearby!",
+  "message.cockatiel.stole_crops":    "§eYour hungry cockatiel stole some crops! Feed it millet!",
+  "message.cockatiel.whistle_none":   "§7No cockatiels in range...",
+  "message.cockatiel.whistle_called": "§aCalled %s cockatiel(s) to your side!",
+  "message.cockatiel.cage_stored":    "§aThe cockatiel is resting in the cage.",
+  "message.cockatiel.cage_released":  "§aThe cockatiel is free!",
+  "message.cockatiel.potion_effect":  "§dYou feel light as a feather!",
+
+  "subtitles.cockatiel.ambient": "Cockatiel chirps",
+  "subtitles.cockatiel.hurt":    "Cockatiel squeaks",
+  "subtitles.cockatiel.death":   "Cockatiel falls silent",
+  "subtitles.cockatiel.song":    "Cockatiel sings",
+  "subtitles.cockatiel.alert":   "Cockatiel screams",
+  "subtitles.cockatiel.eat":     "Cockatiel munches",
+  "subtitles.cockatiel.happy":   "Cockatiel trills",
+  "subtitles.cockatiel.whistle": "Whistle blows"
+}

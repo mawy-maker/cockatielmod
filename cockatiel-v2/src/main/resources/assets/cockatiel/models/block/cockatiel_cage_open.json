@@ -1,0 +1,173 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "cage": "cockatiel:block/cage_bars",
+    "particle": "cockatiel:block/cage_bars"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        1,
+        15
+      ],
+      "faces": {
+        "up": {
+          "texture": "#cage"
+        },
+        "down": {
+          "texture": "#cage"
+        },
+        "north": {
+          "texture": "#cage"
+        },
+        "south": {
+          "texture": "#cage"
+        },
+        "east": {
+          "texture": "#cage"
+        },
+        "west": {
+          "texture": "#cage"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        15,
+        1
+      ],
+      "to": [
+        15,
+        16,
+        15
+      ],
+      "faces": {
+        "up": {
+          "texture": "#cage"
+        },
+        "down": {
+          "texture": "#cage"
+        },
+        "north": {
+          "texture": "#cage"
+        },
+        "south": {
+          "texture": "#cage"
+        },
+        "east": {
+          "texture": "#cage"
+        },
+        "west": {
+          "texture": "#cage"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        1,
+        1
+      ],
+      "to": [
+        2,
+        15,
+        15
+      ],
+      "faces": {
+        "east": {
+          "texture": "#cage"
+        },
+        "west": {
+          "texture": "#cage"
+        }
+      }
+    },
+    {
+      "from": [
+        14,
+        1,
+        1
+      ],
+      "to": [
+        15,
+        15,
+        15
+      ],
+      "faces": {
+        "east": {
+          "texture": "#cage"
+        },
+        "west": {
+          "texture": "#cage"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        1,
+        14
+      ],
+      "to": [
+        15,
+        15,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cage"
+        },
+        "south": {
+          "texture": "#cage"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        1,
+        1
+      ],
+      "to": [
+        4,
+        15,
+        2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cage"
+        },
+        "south": {
+          "texture": "#cage"
+        }
+      }
+    },
+    {
+      "from": [
+        12,
+        1,
+        1
+      ],
+      "to": [
+        15,
+        15,
+        2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cage"
+        },
+        "south": {
+          "texture": "#cage"
+        }
+      }
+    }
+  ]
+}

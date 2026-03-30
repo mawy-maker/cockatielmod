@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "cockatiel:cockatiel_feather",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:0}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "cockatiel:yellow_cockatiel_feather",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:1}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "cockatiel:white_cockatiel_feather"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "type": "minecraft:uniform",
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "minecraft:looting_enchant",
+          "count": {
+            "type": "minecraft:uniform",
+            "min": 0,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ]
+}

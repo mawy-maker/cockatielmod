@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "cockatiel:millet_seeds"
+    }
+  },
+  "result": {
+    "id": "cockatiel:millet_bunch",
+    "count": 1
+  }
+}

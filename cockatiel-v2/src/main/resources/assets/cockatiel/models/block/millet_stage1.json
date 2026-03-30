@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "cockatiel:block/millet_stage1"
+  }
+}

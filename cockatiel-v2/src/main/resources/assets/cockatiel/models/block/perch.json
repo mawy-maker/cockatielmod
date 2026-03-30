@@ -1,0 +1,81 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "wood": "cockatiel:block/perch_wood",
+    "particle": "cockatiel:block/perch_wood"
+  },
+  "elements": [
+    {
+      "comment": "pole",
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        14,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood",
+          "cullface": null
+        },
+        "south": {
+          "texture": "#wood",
+          "cullface": null
+        },
+        "east": {
+          "texture": "#wood",
+          "cullface": null
+        },
+        "west": {
+          "texture": "#wood",
+          "cullface": null
+        },
+        "up": {
+          "texture": "#wood",
+          "cullface": null
+        },
+        "down": {
+          "texture": "#wood",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "comment": "bar",
+      "from": [
+        7,
+        12,
+        2
+      ],
+      "to": [
+        9,
+        14,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "down": {
+          "texture": "#wood"
+        }
+      }
+    }
+  ]
+}
