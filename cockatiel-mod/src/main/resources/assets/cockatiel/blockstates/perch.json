@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "cockatiel:block/perch" },
-    "facing=south": { "model": "cockatiel:block/perch", "y": 180 },
-    "facing=east":  { "model": "cockatiel:block/perch", "y": 90 },
-    "facing=west":  { "model": "cockatiel:block/perch", "y": 270 }
-  }
-}

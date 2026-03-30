@@ -1,4 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": { "layer0": "cockatiel:item/yellow_cockatiel_feather" }
-}
