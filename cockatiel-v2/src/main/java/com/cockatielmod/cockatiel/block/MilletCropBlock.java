@@ -1,9 +1,8 @@
 package com.cockatielmod.cockatiel.block;
 
 import com.cockatielmod.cockatiel.registry.ModItems;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.CropBlock;
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
 public class MilletCropBlock extends CropBlock {
@@ -12,9 +11,10 @@ public class MilletCropBlock extends CropBlock {
         super(props);
     }
 
+    // 1.21.1: returns ItemLike, not ItemStack
     @Override
-    protected ItemStack getBaseSeedId() {
-        return new ItemStack(ModItems.MILLET_SEEDS.get());
+    protected ItemLike getBaseSeedId() {
+        return ModItems.MILLET_SEEDS.get();
     }
 
     @Override
